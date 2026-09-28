@@ -1,3 +1,5 @@
-_site/
-push.sh
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
