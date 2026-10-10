@@ -100,7 +100,7 @@ button { font: inherit; }
 
 .page-grid { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 74px; align-items: start; padding-block: 68px 90px; }
 .profile { position: sticky; top: 96px; }
-.portrait { width: 168px; height: 224px; object-fit: cover; background: var(--portrait-bg); border: 1px solid var(--line); }
+.portrait { width: 168px; height: auto; background: var(--portrait-bg); border: 1px solid var(--line); }
 .identity { margin-top: 24px; }
 .identity h1 { margin: 0; font-family: Georgia, "Times New Roman", "Songti SC", serif; font-size: 31px; line-height: 1.12; letter-spacing: -.025em; }
 .latin-name { margin: 5px 0 0; color: var(--muted); font-family: Georgia, "Times New Roman", serif; }
@@ -182,7 +182,7 @@ button { font: inherit; }
   :root { --shell: min(100% - 36px, 720px); }
   .page-grid { grid-template-columns: 1fr; gap: 56px; padding-top: 42px; }
   .profile { position: static; display: grid; grid-template-columns: 132px 1fr; column-gap: 24px; align-items: start; }
-  .portrait { grid-row: 1 / 4; width: 132px; height: 176px; }
+  .portrait { grid-row: 1 / 4; width: 132px; height: auto; }
   .identity { margin-top: 0; }
   .profile-links { grid-column: 2; flex-direction: row; flex-wrap: wrap; gap: 7px 17px; margin-top: 18px; }
   .location { grid-column: 2; margin-top: 12px; }
@@ -194,7 +194,7 @@ button { font: inherit; }
   .site-nav::-webkit-scrollbar { display: none; }
   .site-nav a { white-space: nowrap; }
   .profile { grid-template-columns: 96px 1fr; column-gap: 18px; }
-  .portrait { width: 96px; height: 128px; }
+  .portrait { width: 96px; height: auto; }
   .identity h1 { font-size: 27px; }
   .role { margin-top: 12px; }
   .profile-links, .location { grid-column: 1 / -1; }
