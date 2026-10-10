@@ -119,6 +119,9 @@ button { font: inherit; }
 .section h2 { margin: 0; color: var(--ink); font-family: Georgia, "Times New Roman", "Songti SC", serif; font-size: 34px; line-height: 1.22; letter-spacing: -.022em; }
 .prose { max-width: 760px; margin-top: 18px; }
 .prose p { margin: 0 0 16px; color: var(--body-text); font-size: 17px; }
+.lab-link { font-size: 15px !important; }
+.lab-link a { color: var(--blue-dark); font-weight: 700; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; }
+.lab-link a:hover { text-decoration-color: currentColor; }
 .interest-block { display: grid; grid-template-columns: 150px 1fr; gap: 24px; margin-top: 40px; padding-top: 27px; border-top: 1px solid var(--line); }
 .interest-block h3 { display: flex; align-items: center; gap: 8px; margin: 0; font-size: 15px; }
 .interest-block h3 .icon { color: var(--warm); }
